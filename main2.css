@@ -1,0 +1,129 @@
+/* -------checkout----------- */
+.checkout{
+    position: absolute;
+    
+    width: 100%;
+   
+    background-color:#0a0a0a;
+}
+.checkoutinfo{
+    background-color: white;
+    width: 75%;
+    margin: 80px auto;
+}
+.header{
+    height: 150px;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoimg{
+    width: 200px;
+    margin-top: 50px ;
+    margin-bottom: 30px ;
+}
+.line{
+    width: 85%;
+    height: 1px;
+    background-color:#c3c3c3 ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.titleitem{
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+.info{
+    display: flex;
+    margin: 30px;
+}
+.infoguest{
+    width: 60%;
+}
+.infoname{
+    
+    display:flex;
+    justify-content: space-between;
+}
+.infoproduct{
+    width: 40%;
+    margin-left: 50px;
+}
+.input1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 235px;
+    height: 30px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+.input2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 535px;
+    height: 30px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+.input3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 120px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+.line1{
+    width: 85%;
+    height: 2px;
+    background-color:#c3c3c3 ;
+}
+.line2{
+    margin-top:10px ;
+    margin-bottom:10px ;    
+    width: 85%;
+    height: 1px;
+    background-color:#c3c3c3 ;
+}    
+.order{
+    background-color: #0a0a0a;
+    color: white;
+    width: 125px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.success{
+    position: absolute;
+    background-color: #fcfcfc;
+    top: 40%;
+    right: 35%;
+    width: 30%;
+    height: 15%;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    display: none;
+}
+.back,.dangkybutton{
+    display:flex;
+    justify-content: center;  
+    margin: 35px;
+    text-decoration: none; 
+    
+}
+.error,.dangky{
+    color: red;
+    margin-top: 0px;
+    display: none;
+}

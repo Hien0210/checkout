@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <!-- phàn đầu -->
+    <head>
+        <title>Shopping Friday</title>
+        <meta charset="urf-8">
+        <link rel="stylesheet" href="main2.css"> 
+        <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.min.css">
+    </head>
+    <!-- phàn thân-->
+    <body>
+        <div class="checkout ">
+            <div class="checkoutinfo">
+                <header>
+                    <div class="logo">
+                        <a href="https://hien0210.github.io/sp-cuoikhoa/index.html"><img class="logoimg" src="https://fridayshopping.vn/wp-content/uploads/2021/09/logo-fridayshopping.png" alt=""></a>
+                        <div class="line"></div>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="title">
+                        <span class="titleitem" style="opacity: 0.5;">Giỏ Hàng</span> <span style="padding-top: 4px;"> <i class="fa-solid fa-angle-right"></i> </span>
+                        <span class="titleitem">Thông tin đơn hàng</span><span style="padding-top: 4px;"> <i class="fa-solid fa-angle-right"></i> </span>
+                        <span class="titleitem"style="opacity: 0.5;">Hoàn thành đơn hàng</span>
+                    </div>
+                   <div class="info">
+                    <div class="infoguest">
+                        <h3>THÔNG TIN THANH TOÁN</h3>
+                        <div class="infoname">
+                            <form action="" >
+                                <label for="">Tên *</label> <br>
+                                <input type="text" class="input1">         
+                            <!-- </form> <form action="" >
+                                <label for="">Họ *</label> <br>
+                                <input type="text" class="input1">                        
+                            </form> -->
+                        </div>
+                        <div>
+                            <form action="">
+                                <label for="">Địa chỉ *</label> <br>
+                                <input type="text" class="input2 address">   <br>                 
+                                <label for="">Số điện thoại *</label> <br>
+                                <input type="text" class="input2 telephone"> <br>
+                                <label for="">Địa chỉ Email *</label> <br>
+                                <input type="text" class="input2 email">
+                            </form>
+                        </div>
+                        <h3>THÔNG TIN BỔ SUNG</h3>
+                        <form action="">
+                            <label for="">Ghi chú đơn hàng (tuỳ chọn)</label> <br>
+                            <input type="text " class="input3" placeholder="Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn." >
+                        </form>
+                    </div>
+                    <div class="infoproduct">
+                        <h3>ĐƠN HÀNG CỦA BẠN</h3>
+                        <h4>SẢN PHẨM</h4>
+                        <div class="line1"></div>
+                        <div class="productlist">
+                            
+                            <!-- <p>Tissot T109.610.36.032.00 Kính Sapphire <p>× 1</p>  </p>
+                        <p>Tissot T109.610.36.032.00 Kính Sapphire <p>× 1</p>  </p> -->
+                        </div>
+                        <div class="line1"></div>
+                        <p style="font-weight: bold;" > Tổng tiền
+                            <span  class="total"> 0</span> <sup>đ</sup>
+                        </p> 
+                        <div class="line1"></div>
+                        <div style="margin: 20px;">
+                            <form action="">
+                                <input type="radio" name="1">
+                                <label for="" style="font-weight: bold;">Trả tiền mặt khi nhận hàng</label> <br>
+                                <div class="line2"></div>
+                                <input type="radio" name="1">
+                                <label for=""style="font-weight: bold;">Thanh Toán Bằng Thẻ (Có Trả Góp)</label>
+                            </form>
+                        </div>
+                        <button class="order" >ĐẶT HÀNG</button>
+                        <p class="error">Bạn chưa đièn đầy đủ thông tin</p>
+                        <div class="dangky">
+                            <p style="margin: 0px;" >Bạn cần đăng nhập để mua hàng FRIDAYSHOPPING</p> 
+                            <a href="https://hien0210.github.io/SignIn/index.html" style="padding: 5px;">Đăng nhập</a>
+                            <a href="https://hien0210.github.io/SignUp/index.html">Đăng ký</a></div>
+                        <P>Dữ liệu cá nhân của bạn sẽ được sử dụng để xử lý đơn đặt hàng của bạn, 
+                            hỗ trợ trải nghiệm của bạn trên trang web này và cho các mục đích khác
+                             được mô tả trong chính sách riêng tư của chúng tôi.</P>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="success">
+                <h3 style="text-align: center;">Đơn hàng đặt thành công</h3>
+                <a href="https://hien0210.github.io/sp-cuoikhoa/index.html" class="back"><button style=" width: 130px;height: 50px;cursor: pointer;">Tiếp tục mua hàng</button></a>
+            </div>
+            <!-- <div class="dangky">
+                <h3 style="text-align: center;">Bạn chưa có tài khoản tại FRIDAYSHOPPING</h3>
+                <a href="../SignUp/index.html" class="dangkybutton"><button style=" width: 130px;height: 50px;cursor: pointer;">Đăng ký</button></a>
+            </div> -->
+        </div> 
+        <script src="script.js"></script>
+    </body>
