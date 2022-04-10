@@ -74,6 +74,14 @@
     border: 1px solid #ddd;
     box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
 }
+.input4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 30px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
 .input3{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -126,4 +134,11 @@
     color: red;
     margin-top: 0px;
     display: none;
+}
+.local-picker {
+    width: calc(100% / 3);
+}
+
+.local-picker + .local-picker {
+    margin-left: 20px;
 }

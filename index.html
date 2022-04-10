@@ -13,7 +13,7 @@
             <div class="checkoutinfo">
                 <header>
                     <div class="logo">
-                        <a href="https://hien0210.github.io/sp/index.html"><img class="logoimg" src="https://fridayshopping.vn/wp-content/uploads/2021/09/logo-fridayshopping.png" alt=""></a>
+                        <a href="../bt cuoi khoa/index.html"><img class="logoimg" src="https://fridayshopping.vn/wp-content/uploads/2021/09/logo-fridayshopping.png" alt=""></a>
                         <div class="line"></div>
                     </div>
                 </header>
@@ -38,7 +38,20 @@
                         <div>
                             <form action="">
                                 <label for="">Địa chỉ *</label> <br>
-                                <input type="text" class="input2 address">   <br>                 
+                                <div class="address-wrapper" style="display: flex;">
+                                    <select name="ls_province" class="input4"></select>
+                                    <select name="ls_district"class="input4"></select>
+                                    <select name="ls_ward"class="input4"></select>
+                                </div>
+                                <script src="vietnamlocalselector.js"></script>
+                               <script>
+	                                var localpicker = new LocalPicker({
+		                                province: "ls_province",
+		                                district: "ls_district",
+		                                ward: "ls_ward"
+    	                                });
+                                </script>
+                                <input type="text" class="input2 address" placeholder="Nhập số nhà, ngõ (nếu có), đường/phố, ...">   <br>                 
                                 <label for="">Số điện thoại *</label> <br>
                                 <input type="text" class="input2 telephone"> <br>
                                 <label for="">Địa chỉ Email *</label> <br>
@@ -78,8 +91,8 @@
                         <p class="error">Bạn chưa đièn đầy đủ thông tin</p>
                         <div class="dangky">
                             <p style="margin: 0px;" >Bạn cần đăng nhập để mua hàng FRIDAYSHOPPING</p> 
-                            <a href="https://hien0210.github.io/SignIn/index.html" style="padding: 5px;">Đăng nhập</a>
-                            <a href="https://hien0210.github.io/SignUp/index.html">Đăng ký</a></div>
+                            <a href="hien0210.github.io/SignIn/index.html" style="padding: 5px;">Đăng nhập</a>
+                            <a href="hien0210.github.io/SignUp/index.html">Đăng ký</a></div>
                         <P>Dữ liệu cá nhân của bạn sẽ được sử dụng để xử lý đơn đặt hàng của bạn, 
                             hỗ trợ trải nghiệm của bạn trên trang web này và cho các mục đích khác
                              được mô tả trong chính sách riêng tư của chúng tôi.</P>
@@ -89,7 +102,7 @@
             </div>
             <div class="success">
                 <h3 style="text-align: center;">Đơn hàng đặt thành công</h3>
-                <a href="https://hien0210.github.io/sp/index.html" class="back"><button style=" width: 130px;height: 50px;cursor: pointer;">Tiếp tục mua hàng</button></a>
+                <a href="hien0210.github.io/sp/index.html" class="back"><button style=" width: 130px;height: 50px;cursor: pointer;">Tiếp tục mua hàng</button></a>
             </div>
             <!-- <div class="dangky">
                 <h3 style="text-align: center;">Bạn chưa có tài khoản tại FRIDAYSHOPPING</h3>
@@ -97,4 +110,5 @@
             </div> -->
         </div> 
         <script src="script.js"></script>
+        <script src="local.js"></script>
     </body>

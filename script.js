@@ -49,3 +49,4 @@ xoa.onclick = () =>{
     console.log(shoppinglist);
     localStorage.setItem("shoppinglist", JSON.stringify(shoppinglist));
 }
+
